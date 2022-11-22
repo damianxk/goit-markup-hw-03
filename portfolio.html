@@ -17,44 +17,48 @@
   <body>
     <!-- Menu, cała nawigacja -->
     <header class="header">
-      <div class="header-container">
-        <!-- Lewa strona menu header -->
-        <div class="header-menu-left">
-          <a href="index.html" class="logo-link-header"><span class="logo-web">Web</span>Studio</a>
-          <nav>
-            <ul class="nav-list-left">
-              <li class="nav-list-left-agencja">
-                <a href="#" class="nav-links-left">Agencja</a>
+      <div class="container">
+        <div class="header-menu">
+          <!-- Lewa strona menu header -->
+          <div class="header-menu-left">
+            <a href="index.html" class="logo-link-header">
+              <span class="logo-web">Web</span>Studio
+            </a>
+            <nav>
+              <ul class="nav-list-left">
+                <li class="nav-list-left-agencja">
+                  <a href="#" class="nav-links-left">Agencja</a>
+                </li>
+                <li class="nav-list-left-portfolio">
+                  <a href="portfolio.html" class="nav-links-left-active">Portfolio</a>
+                </li>
+                <li class="nav-list-left-kontakt">
+                  <a href="#" class="nav-links-left">Kontakt</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- Prawa strona menu header -->
+          <div class="header-menu-right">
+            <ul class="nav-list-right">
+              <li class="nav-links-right-mail">
+                <a href="mailto:info@devstudio.com" class="nav-links-right">info@devstudio.com</a>
               </li>
-              <li class="nav-list-left-portfolio">
-                <a href="portfolio.html" class="nav-links-left-active">Portfolio</a>
-              </li>
-              <li class="nav-list-left-kontakt">
-                <a href="#" class="nav-links-left">Kontakt</a>
+              <li class="nav-links-right-tel">
+                <a href="tel:+48111111111" class="nav-links-right">+48 111 111 111</a>
               </li>
             </ul>
-          </nav>
-        </div>
-        <!-- Prawa strona menu header -->
-        <div class="header-menu-right">
-          <ul class="nav-list-right">
-            <li class="nav-links-right-mail">
-              <a href="mailto:info@devstudio.com" class="nav-links-right">info@devstudio.com</a>
-            </li>
-            <li class="nav-links-right-tel">
-              <a href="tel:+48111111111" class="nav-links-right">+48 111 111 111</a>
-            </li>
-          </ul>
+          </div>
         </div>
       </div>
     </header>
     <!-- Główna sekcja -->
     <main>
       <section>
-        <div class="main-portfolio-section section">
-          <div class="main-portfolio-container">
+        <div class="portfolio-main-section section">
+          <div class="container">
             <!-- Buttons main section-->
-            <div class="main-portfolio-container-buttons">
+            <div class="portfolio-main-buttons">
               <ul class="filter-button-list">
                 <li>
                   <button type="button" class="filter-button">Wszystkie</button>
@@ -74,84 +78,87 @@
               </ul>
             </div>
             <!-- Every main section items -->
-            <div class="main-portfolio-items">
-              <ul class="main-portfolio-container-list">
-                <li class="main-portfolio-container-list-item">
-                  <figure class="main-portfolio-container-figure">
+            <!-- Pierwszy rząd-->
+            <div class="portfolio-main-items">
+              <ul class="portfolio-main-list">
+                <li class="portfolio-main-list-item">
+                  <figure class="portfolio-main-figure">
                     <img src="images/portfolio/portfolio-website.jpg" width="370" height="294" />
-                    <figcaption class="main-portfolio-container-figure-info">
+                    <figcaption class="portfolio-main-figure-info">
                       <b>Technocrack</b>
                       <p>Strona internetowa</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="main-portfolio-container-list-item">
-                  <figure class="main-portfolio-container-figure">
+                <li class="portfolio-main-list-item">
+                  <figure class="portfolio-main-figure">
                     <img src="images/portfolio/portfolio-dizajn.jpg" width="370" height="294" />
-                    <figcaption class="main-portfolio-container-figure-info">
+                    <figcaption class="portfolio-main-figure-info">
                       <b>Grafika New Orlean vs Golden Star</b>
                       <p>Dizajn</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="main-portfolio-container-list-item">
-                  <figure class="main-portfolio-container-figure">
+                <li class="portfolio-main-list-item">
+                  <figure class="portfolio-main-figure">
                     <img src="images/portfolio/portfolio-restaurant.jpg" width="370" height="294" />
-                    <figcaption class="main-portfolio-container-figure-info">
+                    <figcaption class="portfolio-main-figure-info">
                       <b>Restauracja Seafood</b>
                       <p>Aplikacja</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="main-portfolio-container-list-item">
-                  <figure class="main-portfolio-container-figure">
+                <!-- Drugi rząd -->
+                <li class="portfolio-main-list-item">
+                  <figure class="portfolio-main-figure">
                     <img src="images/portfolio/portfolio-headphones.jpg" width="370" height="294" />
-                    <figcaption class="main-portfolio-container-figure-info">
+                    <figcaption class="portfolio-main-figure-info">
                       <b>Projekt Prime</b>
                       <p>Marketing</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="main-portfolio-container-list-item">
-                  <figure class="main-portfolio-container-figure">
+                <li class="portfolio-main-list-item">
+                  <figure class="portfolio-main-figure">
                     <img src="images/portfolio/portfolio-boxes.jpg" width="370" height="294" />
-                    <figcaption class="main-portfolio-container-figure-info">
+                    <figcaption class="portfolio-main-figure-info">
                       <b>Projekt Boxes</b>
                       <p>Aplikacja</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="main-portfolio-container-list-item">
-                  <figure class="main-portfolio-container-figure">
+                <li class="portfolio-main-list-item">
+                  <figure class="portfolio-main-figure">
                     <img src="images/portfolio/portfolio-mac.jpg" width="370" height="294" />
-                    <figcaption class="main-portfolio-container-figure-info">
+                    <figcaption class="portfolio-main-figure-info">
                       <b>Inspiration has no Borders</b>
                       <p>Strona internetowa</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="main-portfolio-container-list-item">
-                  <figure class="main-portfolio-container-figure">
+                <!-- Trzeci rząd -->
+                <li class="portfolio-main-list-item">
+                  <figure class="portfolio-main-figure">
                     <img src="images/portfolio/portfolio-book.jpg" width="370" height="294" />
-                    <figcaption class="main-portfolio-container-figure-info">
+                    <figcaption class="portfolio-main-figure-info">
                       <b>Magazyn Limited Edition</b>
                       <p>Dizajn</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="main-portfolio-container-list-item">
-                  <figure class="main-portfolio-container-figure">
+                <li class="portfolio-main-list-item">
+                  <figure class="portfolio-main-figure">
                     <img src="images/portfolio/portfolio-tag.jpg" width="370" height="294" />
-                    <figcaption class="main-portfolio-container-figure-info">
+                    <figcaption class="portfolio-main-figure-info">
                       <b>Projekt LAB</b>
                       <p>Marketing</p>
                     </figcaption>
                   </figure>
                 </li>
-                <li class="main-portfolio-container-list-item">
-                  <figure class="main-portfolio-container-figure">
+                <li class="portfolio-main-list-item">
+                  <figure class="portfolio-main-figure">
                     <img src="images/portfolio/portfolio-laptop.jpg" width="370" height="294" />
-                    <figcaption class="main-portfolio-container-figure-info">
+                    <figcaption class="portfolio-main-figure-info">
                       <b>Growing Business</b>
                       <p>Aplikacja</p>
                     </figcaption>
@@ -165,7 +172,7 @@
     </main>
     <!-- Stopka -->
     <footer class="footer">
-      <div class="footer-container">
+      <div class="container">
         <a href="index.html" class="logo-link-footer"><span class="logo-web">Web</span>Studio</a>
         <address>
           <ul class="footer-list">
