@@ -398,7 +398,6 @@ ul {
 
 .portfolio-main-list-item {
   width: 370px;
-  border-bottom: 1px solid #ececec;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -422,9 +421,11 @@ ul {
 }
 
 .portfolio-main-figure-info {
-  width: 322px;
+  width: 320px;
   margin: 0 auto;
   letter-spacing: 0.03em;
   line-height: 1.88;
-  padding: 20px 0 20px 0;
+  padding: 20px 24px 20px 24px;
+  border: 1px solid #ececec;
+  border-top: none;
 }
