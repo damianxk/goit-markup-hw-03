@@ -11,7 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -56,61 +62,57 @@
     <!-- Main -->
     <main>
       <!-- Główna sekcja -->
-      <section>
-        <div class="index-main-section">
-          <div class="container">
-            <h1>
-              EFEKTYWNE ROZWIĄZANIA<br />
-              DLA WASZEGO BIZNESU
-            </h1>
-            <button type="button" class="index-main-section-button">Zamów usługe</button>
-          </div>
+      <section class="index-main-section">
+        <div class="container">
+          <h1>
+            EFEKTYWNE ROZWIĄZANIA<br />
+            DLA WASZEGO BIZNESU
+          </h1>
+          <button type="button" class="index-main-section-button">Zamów usługe</button>
         </div>
       </section>
       <!-- Sekcja Nasze atuty -->
-      <section>
-        <div class="advantages-section section">
-          <div class="container">
-            <ul class="advantages-list">
-              <li class="advantages-item">
-                <h4>LOREM IPSUM</h4>
-                <p class="advantages-article">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed<br />
-                  non sodales dui. Interdum et malesuada
-                </p>
-              </li>
-              <li class="advantages-item">
-                <h4>LOREM IPSUM</h4>
-                <p class="advantages-article">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed<br />
-                  non sodales dui. Interdum et malesuada
-                </p>
-              </li>
-              <li class="advantages-item">
-                <h4>LOREM IPSUM</h4>
-                <p class="advantages-article">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed<br />
-                  non sodales dui. Interdum et malesuada
-                </p>
-              </li>
-              <li class="advantages-item">
-                <h4>LOREM IPSUM</h4>
-                <p class="advantages-article">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed<br />
-                  non sodales dui. Interdum et malesuada
-                </p>
-              </li>
-            </ul>
-          </div>
+      <section class="advantages-section section">
+        <div class="container">
+          <ul class="advantages-list">
+            <li class="advantages-item">
+              <h4>LOREM IPSUM</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="advantages-item">
+              <h4>LOREM IPSUM</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="advantages-item">
+              <h4>LOREM IPSUM</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="advantages-item">
+              <h4>LOREM IPSUM</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
       <!-- Sekcja czym się zajmujemy -->
       <section>
-        <div class="what-we-do-section second-section">
+        <div class="what-we-do-section section">
           <div class="container">
             <h2>Czym się zajmujemy</h2>
-            <ul class="what-we-do-section-list">
-              <li>
+            <ul class="what-we-do-list">
+              <li class="what-we-do-list-item">
                 <img
                   src="images/what-we-do-keyboard.jpg"
                   alt="zdjęcie klawiatury przy komputerze"
@@ -118,7 +120,7 @@
                   height="294"
                 />
               </li>
-              <li>
+              <li class="what-we-do-list-item">
                 <img
                   src="images/what-we-do-phone.jpg"
                   alt="zdjęcie telefonu w ręce przy laptopie"
@@ -126,7 +128,7 @@
                   height="294"
                 />
               </li>
-              <li>
+              <li class="what-we-do-list-item">
                 <img
                   src="images/what-we-do-graphic.jpg"
                   alt="zdjęcie tableta z grafiką na ekranie"
@@ -139,69 +141,67 @@
         </div>
       </section>
       <!-- Sekcja nasz zespół -->
-      <section>
-        <div class="our-team-section section">
-          <div class="container">
-            <h2>Nasz zespół</h2>
-            <ul class="our-team-list">
-              <li class="our-team-list-item">
-                <figure class="our-team-list-figure">
-                  <img
-                    src="images/team-product-designer.jpg"
-                    alt="zdjęcie John Doe - Product Designera"
-                    width="270"
-                    height="260"
-                  />
-                  <figcaption class="our-team-list-info">
-                    <b class="our-team-name">John Doe</b>
-                    <p>Product Designer</p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li class="our-team-list-item">
-                <figure class="our-team-list-figure">
-                  <img
-                    src="images/team-frontend-developer.jpg"
-                    alt="zdjęcie John Doe - Frontend Developera"
-                    width="270"
-                    height="260"
-                  />
-                  <figcaption class="our-team-list-info">
-                    <b class="our-team-name">John Doe</b>
-                    <p>Frontend Developer</p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li class="our-team-list-item">
-                <figure class="our-team-list-figure">
-                  <img
-                    src="images/team-marketing.jpg"
-                    alt="zdjęcie John Doe - Marketingowca"
-                    width="270"
-                    height="260"
-                  />
-                  <figcaption class="our-team-list-info">
-                    <b class="our-team-name">John Doe</b>
-                    <p>Marketing</p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li class="our-team-list-item">
-                <figure class="our-team-list-figure">
-                  <img
-                    src="images/team-ui-designer.jpg"
-                    alt="zdjęcie John Doe - UI Designera"
-                    width="270"
-                    height="260"
-                  />
-                  <figcaption class="our-team-list-info">
-                    <b class="our-team-name">John Doe</b>
-                    <p>UI Designer</p>
-                  </figcaption>
-                </figure>
-              </li>
-            </ul>
-          </div>
+      <section class="our-team-section section">
+        <div class="container">
+          <h2>Nasz zespół</h2>
+          <ul class="our-team-list">
+            <li class="our-team-list-item">
+              <figure class="our-team-list-figure">
+                <img
+                  src="images/team-product-designer.jpg"
+                  alt="zdjęcie John Doe - Product Designera"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="our-team-list-info">
+                  <h3>John Doe</h3>
+                  <p>Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="our-team-list-item">
+              <figure class="our-team-list-figure">
+                <img
+                  src="images/team-frontend-developer.jpg"
+                  alt="zdjęcie John Doe - Frontend Developera"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="our-team-list-info">
+                  <h3>John Doe</h3>
+                  <p>Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="our-team-list-item">
+              <figure class="our-team-list-figure">
+                <img
+                  src="images/team-marketing.jpg"
+                  alt="zdjęcie John Doe - Marketingowca"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="our-team-list-info">
+                  <h3>John Doe</h3>
+                  <p>Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="our-team-list-item">
+              <figure class="our-team-list-figure">
+                <img
+                  src="images/team-ui-designer.jpg"
+                  alt="zdjęcie John Doe - UI Designera"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="our-team-list-info">
+                  <h3>John Doe</h3>
+                  <p>UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
